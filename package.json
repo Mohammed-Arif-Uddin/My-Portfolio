@@ -1,5 +1,5 @@
 {
-  "homepage": "http://mohammed-arif-uddin.github.io/new-portfolio",
+  "homepage": "https://mohammed-arif-uddin.github.io/new-portfolio",
   "name": "new-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -7,9 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "lint": "next lint"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
